@@ -21,7 +21,7 @@ int main()
     if(first.denominator == 0 || second.denominator == 0)
     {
         cout<<"Math error."<<endl;
-        return 0;
+        return 1;
     }
 
     fraction sum;
