@@ -37,10 +37,7 @@ int main()
         sum.denominator = first.denominator;
     }
 
-
     cout<<"Sum: "<<sum.numerator<<"/"<<sum.denominator<<endl;
-
-    return 0;
 
     return 0;
 }
