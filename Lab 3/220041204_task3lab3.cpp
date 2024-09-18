@@ -6,7 +6,7 @@ class Medicine {
 private:
     char tradeName[30];
     char genericName[30];
-    double unitPrice;
+    double unitPrice = 0;
     double discountPercentage = 5;
 
 public:
