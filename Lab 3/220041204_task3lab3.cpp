@@ -6,10 +6,14 @@ class Medicine {
 private:
     char tradeName[30];
     char genericName[30];
-    double unitPrice = 0;
-    double discountPercentage = 5;
+    double unitPrice;
+    double discountPercentage;
 
 public:
+    Medicine(): unitPrice(0), discountPercentage(5)
+    {
+        cout << "Constructor called" << endl;
+    }
     void assignName(const char trade_name[], const char generic_name[])
     {
         if(trade_name == NULL && generic_name == NULL)
@@ -45,6 +49,11 @@ public:
     void display()
     {
         cout << "MRP. of " << tradeName << " (" << genericName << ") " << "is BDT " << unitPrice << ". Current discount " << discountPercentage << "%. Selling price BDT " << getSellingPrice() << "." << endl;
+    }
+
+    ~Medicine()
+    {
+        cout << "Destructor called" << endl;
     }
 };
 
