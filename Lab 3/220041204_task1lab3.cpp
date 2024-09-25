@@ -3,8 +3,8 @@ using namespace std;
 
 class Counter {
 private:
-    int countValue = 0;
-    int incrementStep = 0;
+    int countValue;
+    int incrementStep;
 
 public:
     Counter(): countValue(0), incrementStep(0)
