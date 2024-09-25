@@ -7,6 +7,10 @@ private:
     int incrementStep = 0;
 
 public:
+    Counter(): countValue(0), incrementStep(0)
+    {
+        cout << "Constructor called" << endl;
+    }
     void setIncrementStep(const int x)
     {
         if(x > 0)
@@ -26,6 +30,11 @@ public:
     void resetCount()
     {
         countValue = 0;
+    }
+
+    ~Counter()
+    {
+        cout << "Destructor called" << endl;
     }
 };
 
