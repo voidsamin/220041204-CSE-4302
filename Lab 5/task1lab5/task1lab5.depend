@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1727842586 source:d:\220041204-cse-4302\lab 5\task1lab5\src\student.cpp
+	<iostream>
+	"Student.h"
+	<string>
+
+1727842658 d:\220041204-cse-4302\lab 5\task1lab5\include\student.h
+	<string>
+	<vector>
+
