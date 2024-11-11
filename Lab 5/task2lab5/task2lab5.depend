@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1731245968 source:c:\users\saada\desktop\cse 3rd semester\220041204-cse-4302\lab 5\task2lab5\main.cpp
+	<iostream>
+	<string>
+	"Employee.h"
+
+1731306092 c:\users\saada\desktop\cse 3rd semester\220041204-cse-4302\lab 5\task2lab5\include\employee.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+
+1731306189 source:c:\users\saada\desktop\cse 3rd semester\220041204-cse-4302\lab 5\task2lab5\src\employee.cpp
+	"Employee.h"
+
